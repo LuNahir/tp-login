@@ -28,7 +28,7 @@ a{
 }
 
 a:hover{
-    color: aquamarine;
+    color: rgb(218, 207, 172);
 }
 
 label{
@@ -40,8 +40,6 @@ label{
     height: 100vh;
     display: flex;
     align-items: center;
-    
-
 }
 
 .login{
@@ -70,7 +68,6 @@ label{
     display: flex;
     flex-direction: column;
     width: 350px;
-    background-color: crimson;
 }
 
 form .input-box{
@@ -86,7 +83,30 @@ form .input-box{
     border-width: 1px;
 }
 
+form button{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border-color: #b4b4b4;
+    border-style: solid;
+    border-width: 1px;
+}
 
+
+
+form .signin-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+form .signin-google img{
+    height: 12px;
+    margin-right: 5px;
+}
 
 .comentarios{
     width: 50%;
