@@ -6,7 +6,28 @@
     font-family: 'Poppins', sans-serif ;
 }
 
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    background-color: antiquewhite;
+}
 
 
+
+
+
+.comentarios{
+    width: 50%;
+}
 
 
