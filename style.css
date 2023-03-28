@@ -22,7 +22,69 @@
     background-color: antiquewhite;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
 
+a:hover{
+    color: aquamarine;
+}
+
+label{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.login .welcome{
+    margin-bottom: 20px;
+}
+
+.welcome h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.welcome p{
+    color: #757575;
+    font-size: 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: crimson;
+}
+
+form .input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-box input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border-color: #b4b4b4;
+    border-width: 1px;
+}
 
 
 
