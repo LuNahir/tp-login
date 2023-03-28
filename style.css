@@ -6,29 +6,13 @@
     font-family: 'Poppins', sans-serif ;
 }
 
-.hero{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    
-
-}
-
-.login{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    background-color: antiquewhite;
-}
-
 a{
     text-decoration: none;
     color: #000000;
 }
 
 a:hover{
-    color: rgb(218, 207, 172);
+    color: rgb(235, 198, 77);
 }
 
 label{
@@ -40,17 +24,18 @@ label{
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .login{
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: center;
-    background-color: antiquewhite;
+    align-items: center;
 }
 
-.login .welcome{
+
+.login-completo .welcome{
     margin-bottom: 20px;
 }
 
@@ -62,6 +47,7 @@ label{
 .welcome p{
     color: #757575;
     font-size: 15px;
+    margin-left: opx;
 }
 
 .form{
@@ -79,8 +65,14 @@ form .input-box{
 .input-box input{
     padding: 10px 5px;
     border-radius: 10px;
+    border-style: solid;
     border-color: #b4b4b4;
     border-width: 1px;
+}
+
+form .options{
+    display: flex;
+    justify-content: space-between;
 }
 
 form button{
@@ -91,9 +83,13 @@ form button{
     border-color: #b4b4b4;
     border-style: solid;
     border-width: 1px;
+    font-weight: 500;
 }
 
-
+form .signin{
+    background-color: #000000;
+    color: #ffffff;
+}
 
 form .signin-google{
     display: flex;
@@ -104,12 +100,29 @@ form .signin-google{
 }
 
 form .signin-google img{
-    height: 12px;
+    height: 20px;
     margin-right: 5px;
+}
+
+.login-completo .signup{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-completo .signup a{
+    margin-left: 5px;
+    font-weight: 600;
 }
 
 .comentarios{
     width: 50%;
+    background-image: url(img/bg-comentarios.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 
